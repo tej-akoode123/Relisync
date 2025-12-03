@@ -34,7 +34,7 @@
   --bs-gray-800: #595564;
   --bs-gray-900: #444050;
   --bs-primary: #7367f0;
-  --bs-secondary: #808390;
+  --bs-secondary: #006d5b;;
   --bs-success: #28c76f;
   --bs-info: #00bad1;
   --bs-warning: #ff9f43;
@@ -43,7 +43,7 @@
   --bs-dark: #2f3349;
   --bs-gray: #97959e;
   --bs-primary-rgb: 115, 103, 240;
-  --bs-secondary-rgb: 128, 131, 144;
+  --bs-secondary-rgb: 0, 109, 91;
   --bs-success-rgb: 40, 199, 111;
   --bs-info-rgb: 0, 186, 209;
   --bs-warning-rgb: 255, 159, 67;
@@ -8061,7 +8061,7 @@ textarea.form-control-lg {
   --bs-gray-800: #bdbcd3;
   --bs-gray-900: #cfcde4;
   --bs-primary: #7367f0;
-  --bs-secondary: #808390;
+  --bs-secondary: #006d5b;
   --bs-success: #28c76f;
   --bs-info: #00bad1;
   --bs-warning: #ff9f43;
@@ -8070,7 +8070,7 @@ textarea.form-control-lg {
   --bs-dark: #6b6c9d;
   --bs-gray: #9293ae;
   --bs-primary-rgb: 115, 103, 240;
-  --bs-secondary-rgb: 128, 131, 144;
+  --bs-secondary-rgb: 0, 109, 91;
   --bs-success-rgb: 40, 199, 111;
   --bs-info-rgb: 0, 186, 209;
   --bs-warning-rgb: 255, 159, 67;
@@ -8096,7 +8096,7 @@ textarea.form-control-lg {
 ? styles specifically for apex-chart dark variant */
 .apexcharts-theme-dark {
   --bs-primary: #7367f0;
-  --bs-secondary: #808390;
+  --bs-secondary: #006d5b;;
   --bs-success: #28c76f;
   --bs-info: #00bad1;
   --bs-warning: #ff9f43;
@@ -27667,7 +27667,9 @@ body:not(.modal-open) .layout-content-navbar .layout-navbar {
 .app-brand .app-brand-img-collapsed {
   display: none;
 }
-
+.app-brand-logo{
+  width:200px
+}
 .auth-cover-brand {
   position: absolute;
   z-index: 1;

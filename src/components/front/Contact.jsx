@@ -21,18 +21,13 @@ export default function Contact() {
           <div className="col-lg-5">
             <div className="contact-img-box position-relative border p-2 h-100">
               <img
-                src="/front-pages/images/front-pages/icons/contact-border.png"
-                alt="contact border"
-                className="contact-border-img position-absolute d-none d-lg-block scaleX-n1-rtl"
-              />
-              <img
                 src="/front-pages/images/front-pages/landing-page/contact-customer-service.png"
                 alt="contact customer service"
                 className="contact-img w-100 scaleX-n1-rtl"
               />
               <div className="p-4 pb-2">
                 <div className="row g-4">
-                  <div className="col-md-6 col-lg-12 col-xl-6">
+                  <div className="col-md-7 col-lg-12 col-xl-7">
                     <div className="d-flex align-items-center">
                       <div className="badge bg-label-primary rounded p-1_5 me-3">
                         <i className="icon-base ti tabler-mail icon-lg"></i>
@@ -40,12 +35,12 @@ export default function Contact() {
                       <div>
                         <p className="mb-0">Email</p>
                         <h6 className="mb-0">
-                          <a href="mailto:example@gmail.com" className="text-heading">example@gmail.com</a>
+                          <a href="mailto:upspring.technology@gmail.com" className="text-heading">upspring.technology@gmail.com</a>
                         </h6>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-lg-12 col-xl-6">
+                  <div className="col-md-5 col-lg-12 col-xl-5">
                     <div className="d-flex align-items-center">
                       <div className="badge bg-label-success rounded p-1_5 me-3">
                         <i className="icon-base ti tabler-phone-call icon-lg"></i>

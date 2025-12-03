@@ -13,13 +13,12 @@ export default function Hero() {
         <div className="container">
           <div className="hero-text-box text-center position-relative">
             <h1 className="text-primary hero-title display-6 fw-extrabold">
-              One dashboard to manage all your businesses
+            One Platform to Manage Properties, Buyers & Visits.
             </h1>
             <h2 className="hero-sub-title h6 mb-6">
-              Production-ready & easy to use Admin Template<br className="d-none d-lg-block" />
-              for Reliability and Customizability.
+            Built for Real Estate Brokers & Teams.
             </h2>
-            <div className="landing-hero-btn d-inline-block position-relative">
+            {/* <div className="landing-hero-btn d-inline-block position-relative">
               <span className="hero-btn-item position-absolute d-none d-md-flex fw-medium">
                 Join community
                 <img
@@ -28,29 +27,26 @@ export default function Hero() {
                   className="scaleX-n1-rtl"
                 />
               </span>
-              <a href="#landingPricing" className="btn btn-primary btn-lg">Get early access</a>
+              <a href="#landingPricing" className="btn btn-primary btn-lg">Start Free Trial</a>
+            </div> */}
+            <div className="landing-hero-btn d-inline-flex gap-4 position-relative">
+              
+              <a href="#" className="btn btn-primary btn-lg">Start Free Trial</a>
+              <a href="#" className="btn btn-secondary btn-lg">Book Demo</a>
             </div>
           </div>
           <div id="heroDashboardAnimation" className="hero-animation-img">
-            <Link href="/broker">
+            <Link href="#">
               <div id="heroAnimationImg" className="position-relative hero-dashboard-img">
                 <img
-                  src="/front-pages/images/front-pages/landing-page/hero-dashboard-light.png"
+                  src="/front-pages/images/front-pages/home/dashboard-ui2.png"
                   alt="hero dashboard"
                   className="animation-img"
-                  data-app-light-img="front-pages/landing-page/hero-dashboard-light.png"
-                  data-app-dark-img="front-pages/landing-page/hero-dashboard-dark.png"
+                  data-app-light-img="front-pages/home/dashboard-ui2.png"
+                  data-app-dark-img="front-pages/home/dashboard-ui2.png"
                   style={{ visibility: 'visible', display: 'block' }}
                 />
-                <img
-                  src="/front-pages/images/front-pages/landing-page/hero-elements-light.png"
-                  alt="hero elements"
-                  className="position-absolute hero-elements-img animation-img top-0 start-0"
-                  data-app-light-img="front-pages/landing-page/hero-elements-light.png"
-                  data-app-dark-img="front-pages/landing-page/hero-elements-dark.png"
-                  style={{ visibility: 'visible', display: 'block' }}
-                />
-              </div>
+              </div> 
             </Link>
           </div>
         </div>

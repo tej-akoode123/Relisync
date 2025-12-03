@@ -1,26 +1,32 @@
 export default function FAQ() {
   const faqs = [
     {
-      question: 'Do you charge for each upgrade?',
-      answer: 'Lemon drops chocolate cake gummies carrot cake chupa chups muffin topping. Sesame snaps icing marzipan gummi bears macaroon dragée danish caramels powder. Bear claw dragée pastry topping soufflé. Wafer gummi bears marshmallow pastry pie.',
+      question: 'What can I manage inside this platform?',
+      answer: `You can manage your entire real estate workflow in one place — properties, buyers, visits, documents, and broker collaboration.
+      Add new listings, track buyer interest, schedule visits, share groups, and monitor activity easily from a single dashboard.`,
       id: 'accordionOne',
       expanded: false,
     },
     {
-      question: 'Do I need to purchase a license for each website?',
-      answer: 'Dessert ice cream donut oat cake jelly-o pie sugar plum cheesecake. Bear claw dragée oat cake dragée ice cream halvah tootsie roll. Danish cake oat cake pie macaroon tart donut gummies. Jelly beans candy canes carrot cake. Fruitcake chocolate chupa chups.',
+      question: 'Do I need technical knowledge to use the platform?',
+      answer: `Not at all.
+      The platform is designed specifically for brokers and sales teams, so everything is simplified and easy to navigate.
+      You can start managing properties within minutes — no training or technical setup needed.`,
       id: 'accordionTwo',
       expanded: false,
     },
     {
-      question: 'What is regular license?',
-      answer: 'Regular license can be used for end products that do not charge users for access or service(access is free and there will be no monthly subscription fee). Single regular license can be used for single end product and end product can be used by you or your client.',
+      question: 'How does the pricing work?',
+      answer: `We offer simple monthly and yearly plans based on the number of users and features you need.
+      You can start with the Free Trial, explore all features, and upgrade anytime as your team grows.`,
       id: 'accordionThree',
       expanded: true,
     },
     {
-      question: 'What is extended license?',
-      answer: 'Extended license can be used for end products that charge users for access or service. Single extended license can be used for single end product and end product can be used by you or your client.',
+      question: 'Is my data safe and secure?',
+      answer: `Absolutely.
+      Your data is protected with bank-level encryption, secure cloud infrastructure, and regular backups.
+      Only you and your authorized team members can access your listings, buyers, and visit information.`,
       id: 'accordionFour',
       expanded: false,
     },
@@ -50,7 +56,7 @@ export default function FAQ() {
           <div className="col-lg-5">
             <div className="text-center">
               <img
-                src="/front-pages/images/front-pages/landing-page/faq-boy-with-logos.png"
+                src="/front-pages/images/front-pages/landing-page/faq.svg"
                 alt="faq boy with logos"
                 className="faq-image"
               />

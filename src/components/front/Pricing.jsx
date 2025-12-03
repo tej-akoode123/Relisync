@@ -1,29 +1,23 @@
 export default function Pricing() {
   const plans = [
     {
-      name: 'Basic',
-      monthlyPrice: '$19',
-      yearlyPrice: '$14',
-      yearlyTotal: '$ 168 / year',
-      icon: 'paper-airplane.png',
-      features: ['Timeline', 'Basic search', 'Live chat widget', 'Email marketing', 'Custom Forms'],
+      name: 'Monthly',
+      price: '₹500',
+      icon: 'paper-plane.svg',
+      features: ['Unlimited Property Listings', 'Media Uploads (Images, Videos, Documents)', 'Group Chat for Team Collaboration', 'Advanced Analytics Dashboard', 'Built-in Calendar for Visit Scheduling', 'Speech-to-Text for Notes & Descriptions'],
     },
     {
-      name: 'Standard',
-      monthlyPrice: '$49',
-      yearlyPrice: '$37',
-      yearlyTotal: '$ 444 / year',
-      icon: 'plane.png',
-      features: ['Timeline', 'Basic search', 'Live chat widget', 'Email marketing', 'Custom Forms', 'Advanced search'],
+      name: 'Quarterly',
+      price: '₹1200',
+      icon: 'airplane.svg',
+      features: ['Unlimited Property Listings', 'Media Uploads (Images, Videos, Documents)', 'Group Chat for Team Collaboration', 'Advanced Analytics Dashboard', 'Built-in Calendar for Visit Scheduling', 'Speech-to-Text for Notes & Descriptions'],
       popular: true,
     },
     {
-      name: 'Enterprise',
-      monthlyPrice: '$99',
-      yearlyPrice: '$74',
-      yearlyTotal: '$ 888 / year',
-      icon: 'shuttle-rocket.png',
-      features: ['Timeline', 'Basic search', 'Live chat widget', 'Email marketing', 'Custom Forms', 'Advanced search', 'API access'],
+      name: 'Yearly',
+      price: '₹3200',
+      icon: 'rocket.svg',
+      features: ['Unlimited Property Listings', 'Media Uploads (Images, Videos, Documents)', 'Group Chat for Team Collaboration', 'Advanced Analytics Dashboard', 'Built-in Calendar for Visit Scheduling', 'Speech-to-Text for Notes & Descriptions'],
     },
   ]
 
@@ -35,20 +29,19 @@ export default function Pricing() {
         </div>
         <h4 className="text-center mb-1">
           <span className="position-relative fw-extrabold z-1">
-            Tailored pricing plans
+          Flexible Pricing for 
             <img
               src="/front-pages/images/front-pages/icons/section-title-icon.png"
               alt="laptop charging"
               className="section-title-img position-absolute object-fit-contain bottom-0 z-n1"
             />
           </span>
-          {' '}designed for you
+          {' '}Every Broker
         </h4>
         <p className="text-center pb-2 mb-7">
-          All plans include 40+ advanced tools and features to boost your product.<br />Choose the best plan to fit
-          your needs.
+        Scale your property management as your team and listings grow.
         </p>
-        <div className="text-center mb-12">
+        {/* <div className="text-center mb-12">
           <div className="position-relative d-inline-block pt-3 pt-md-0">
             <label className="switch switch-sm switch-primary me-0">
               <span className="switch-label fs-6 text-body me-3">Pay Monthly</span>
@@ -68,18 +61,19 @@ export default function Pricing() {
               <span className="fw-medium mt-2 ms-1"> Save 25%</span>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row g-6 pt-lg-5">
           {plans.map((plan, index) => (
             <div key={index} className="col-xl-4 col-lg-6">
-              <div className={`card ${plan.popular ? 'border-primary shadow-lg' : ''}`}>
-                {plan.popular && (
+              <div className="card">
+              {/*<div className={`card ${plan.popular ? 'border-primary shadow-lg' : ''}`}>
+                 {plan.popular && (
                   <div className="card-header border-primary">
                     <span className="badge bg-primary rounded-pill position-absolute top-0 start-50 translate-middle">
                       Popular
                     </span>
                   </div>
-                )}
+                )} */}
                 <div className="card-header">
                   <div className="text-center">
                     <img
@@ -89,13 +83,15 @@ export default function Pricing() {
                     />
                     <h4 className="mb-0">{plan.name}</h4>
                     <div className="d-flex align-items-center justify-content-center">
-                      <span className="price-monthly h2 text-primary fw-extrabold mb-0">{plan.monthlyPrice}</span>
-                      <span className="price-yearly h2 text-primary fw-extrabold mb-0 d-none">{plan.yearlyPrice}</span>
-                      <sub className="h6 text-body-secondary mb-n1 ms-1">/mo</sub>
+                        <span className="h2 text-primary fw-extrabold mb-0">{plan.price}</span>
+                        <sub className="h6 text-body-secondary mb-n1 ms-1">
+                          {plan.name === 'Yearly' ? '/year' : plan.name === 'Quarterly' ? '/quarter' : '/mo'}
+                        </sub>
+
                     </div>
-                    <div className="position-relative pt-2">
+                    {/* <div className="position-relative pt-2">
                       <div className="price-yearly text-body-secondary price-yearly-toggle d-none">{plan.yearlyTotal}</div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="card-body">

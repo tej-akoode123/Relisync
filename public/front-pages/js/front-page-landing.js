@@ -27,8 +27,8 @@
         layer.style.transform = 'translateZ(1rem)';
       });
       animationImg.forEach(layer => {
-        let x = (window.innerWidth - e.pageX * 2) / 100;
-        let y = (window.innerHeight - e.pageY * 2) / 100;
+        let x = (window.innerWidth - e.pageX * 0.2) / 300;
+        let y = (window.innerHeight - e.pageY * 0.2) / 300;
         layer.style.transform = `perspective(1200px) rotateX(${y}deg) rotateY(${x}deg) scale3d(1, 1, 1)`;
       });
     });
@@ -37,8 +37,8 @@
         layer.style.transform = 'translateZ(1rem)';
       });
       animationImg.forEach(layer => {
-        let x = (window.innerWidth - e.pageX * 2) / 100;
-        let y = (window.innerHeight - e.pageY * 2) / 100;
+        let x = (window.innerWidth - e.pageX * 0.2) / 300;
+        let y = (window.innerHeight - e.pageY * 0.2) / 300;
         layer.style.transform = `perspective(1200px) rotateX(${y}deg) rotateY(${x}deg) scale3d(1, 1, 1)`;
       });
     });

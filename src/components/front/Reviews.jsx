@@ -40,15 +40,14 @@ export default function Reviews() {
                       <div className="card h-100">
                         <div className="card-body text-body d-flex flex-column justify-content-between h-100">
                           <div className="mb-4">
-                            <img
+                            {/* <img
                               src={`/front-pages/images/front-pages/branding/logo-${num}.png`}
                               alt="client logo"
                               className="client-logo img-fluid"
-                            />
+                            /> */}
                           </div>
                           <p>
-                            &quot;Vuexy is hands down the most useful front end Bootstrap theme I&apos;ve ever used. I can&apos;t wait
-                            to use it again for my next project.&quot;
+                          The analytics dashboard gives us clarity we never had before. We now know which listings perform best and where to focus our marketing spend.
                           </p>
                           <div className="text-warning mb-4">
                             {[...Array(5)].map((_, i) => (
@@ -60,8 +59,9 @@ export default function Reviews() {
                               <img src={`/front-pages/images/avatars/${num <= 5 ? num : 1}.png`} alt="Avatar" className="rounded-circle" />
                             </div>
                             <div>
-                              <h6 className="mb-0">Customer {num}</h6>
-                              <p className="small text-body-secondary mb-0">CEO of Company</p>
+                              {/* <h6 className="mb-0">Arvind Mehta {num}</h6> */}
+                              <h6 className="mb-0">Arvind Mehta</h6>
+                              <p className="small text-body-secondary mb-0">Director, Horizon Estates</p>
                             </div>
                           </div>
                         </div>
@@ -79,7 +79,7 @@ export default function Reviews() {
       {/* What people say slider: End */}
       <hr className="m-0 mt-6 mt-md-12" />
       {/* Logo slider: Start */}
-      <div className="container">
+      {/* <div className="container">
         <div className="swiper-logo-carousel pt-8">
           <div className="swiper" id="swiper-clients-logos">
             <div className="swiper-wrapper">
@@ -97,7 +97,7 @@ export default function Reviews() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Logo slider: End */}
     </section>
   )

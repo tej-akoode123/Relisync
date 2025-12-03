@@ -39,7 +39,7 @@
   .landing-hero .hero-text-box {
     margin-block: 0;
     margin-inline: auto;
-    max-inline-size: 34.375rem;
+    max-inline-size: 40rem;
   }
 }
 .landing-hero .hero-title {
@@ -116,6 +116,10 @@
   margin-block: 0;
   margin-inline: auto;
   max-inline-size: 19.25rem;
+}
+.features-icon-wrapper svg {
+  width: 70px;
+  height:auto;
 }
 
 /* Real customers reviews */
@@ -215,6 +219,9 @@
 .landing-pricing .card .card-header {
   padding-block-start: 3rem;
 }
+.landing-pricing .card .card-header img{
+  width: 60px
+}
 .landing-pricing .card .card-body {
   padding-block-start: 0;
 }
@@ -225,8 +232,8 @@
   border-top-right-radius: 3.75rem;
 }
 .landing-faq .faq-image {
-  inline-size: 80%;
-  max-inline-size: 20rem;
+  inline-size: 100%;
+  max-inline-size: 32rem;
 }
 
 .landing-cta .cta-title {
