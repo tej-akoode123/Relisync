@@ -1,0 +1,15 @@
+/* Fix for images with data-app-light-img and data-app-dark-img - ensure they're visible */
+img[data-app-light-img][data-app-dark-img] {
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.hero-animation-img img,
+.animation-img,
+.hero-dashboard-img img,
+.hero-elements-img {
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
