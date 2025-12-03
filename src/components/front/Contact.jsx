@@ -60,14 +60,13 @@ export default function Contact() {
               <div className="card-body">
                 <h4 className="mb-2">Send a message</h4>
                 <p className="mb-6">
-                  If you would like to discuss anything related to payment, account, licensing,
-                  partnerships, or have pre-sales questions, you&apos;re at the right place.
+                If you have questions about payments, account setup, broker licensing, team access, partnerships, or want details before subscribing, our team is here to help you.
                 </p>
                 <form>
                   <div className="row g-4">
                     <div className="col-md-6">
                       <label className="form-label" htmlFor="contact-form-fullname">Full Name</label>
-                      <input type="text" className="form-control" id="contact-form-fullname" placeholder="john" />
+                      <input type="text" className="form-control" id="contact-form-fullname" placeholder="Aditya" />
                     </div>
                     <div className="col-md-6">
                       <label className="form-label" htmlFor="contact-form-email">Email</label>
@@ -75,7 +74,7 @@ export default function Contact() {
                         type="text"
                         id="contact-form-email"
                         className="form-control"
-                        placeholder="johndoe@gmail.com"
+                        placeholder="upspring.technology@gmail.com"
                       />
                     </div>
                     <div className="col-12">
