@@ -28,8 +28,13 @@ export default function Header() {
             {/* Mobile menu toggle: End*/}
             <Link href="/" className="app-brand-link">
               <span className="app-brand-logo demo">
-                  <img
+                  {/* <img
                           src="/front-pages/images/front-pages/home/relisync-logo.svg"
+                          alt="image"
+                          className="img-fluid"
+                        /> */}
+                        <img
+                          src="/front-pages/images/front-pages/home/relisync-logo-2.svg"
                           alt="image"
                           className="img-fluid"
                         />

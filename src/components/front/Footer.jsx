@@ -12,7 +12,7 @@ export default function Footer() {
               <Link href="/" className="app-brand-link mb-6">
               <span className="app-brand-logo demo">
                   <img
-                          src="/front-pages/images/front-pages/home/relisync-logo.svg"
+                          src="/front-pages/images/front-pages/home/relisync-white-logo.svg"
                           alt="image"
                           className="w-75"
                         />

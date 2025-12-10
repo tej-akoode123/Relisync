@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
     line: {
       series1: config.colors.warning,
       series2: config.colors.primary,
-      series3: '#47B96D29'
+      series3: '#3f70b729'
     }
   };
 

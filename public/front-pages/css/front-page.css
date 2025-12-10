@@ -125,7 +125,8 @@ nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item.mega-dropdown > .
 }
 nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item.mega-dropdown > .dropdown-menu .mega-dropdown-link:hover {
   color: var(--bs-primary);
-  background-color: rgba(71, 185, 109, 0.08);
+  /* background-color: rgba(71, 185, 109, 0.08); */
+  background-color: rgba(63, 112, 183, 0.08);
 }
 nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item .nav-img-col,
 nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item .nav-img-col img {
@@ -195,6 +196,20 @@ nav.layout-navbar .menu-text {
 }
 .landing-footer {
   background-color: var(--bs-footer-top-bg);
+  position: relative;
+}
+.landing-footer::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 100%;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color: rgba(25 32 76 / 6%);
 }
 .landing-footer .footer-link,
 .landing-footer .footer-text {
