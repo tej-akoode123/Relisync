@@ -4,13 +4,8 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="landing-footer bg-body footer-text">
+    <footer className="landing-footer landing-faq footer-text">
       <div className="footer-top position-relative overflow-hidden z-1">
-        <img
-          src="/front-pages/images/front-pages/backgrounds/footer-bg.png"
-          alt="footer bg"
-          className="footer-bg banner-bg-img z-n1"
-        />
         <div className="container">
           <div className="row gx-0 gy-6 g-lg-10">
             <div className="col-lg-5">

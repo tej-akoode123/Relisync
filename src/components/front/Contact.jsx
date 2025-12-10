@@ -1,11 +1,8 @@
 export default function Contact() {
   return (
-    <section id="landingContact" className="section-py bg-body landing-contact">
+    <section id="landingContact" className="section-py bg-purple-green landing-faq landing-contact">
       <div className="container">
-        <div className="text-center mb-4">
-          <span className="badge bg-label-primary">Contact US</span>
-        </div>
-        <h4 className="text-center mb-1">
+      <h2 className="text-center fw-extrabold mb-1">
           <span className="position-relative fw-extrabold z-1">
             Let&apos;s work
             <img
@@ -15,7 +12,7 @@ export default function Contact() {
             />
           </span>
           {' '}together
-        </h4>
+        </h2>
         <p className="text-center mb-12 pb-md-4">Any question or remark? just write us a message</p>
         <div className="row g-6">
           <div className="col-lg-5">
@@ -56,7 +53,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="col-lg-7">
-            <div className="card h-100">
+            <div className="card h-100 box-none">
               <div className="card-body">
                 <h4 className="mb-2">Send a message</h4>
                 <p className="mb-6">

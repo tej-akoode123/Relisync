@@ -54,10 +54,215 @@ export default function Header() {
             </button>
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link fw-medium" aria-current="page" href="#landingHero">Home</a>
+                <a className="nav-link fw-medium" aria-current="page" href="#">Home</a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link fw-medium" href="#landingFeatures">Features</a>
+              </li> */}
+              <li className="nav-item mega-dropdown">
+                <a
+                  href="javascript:void(0);"
+                  className="nav-link dropdown-toggle navbar-ex-14-mega-dropdown mega-dropdown fw-medium"
+                  aria-expanded="false"
+                  data-bs-toggle="mega-dropdown"
+                  data-trigger="hover"
+                >
+                  <span data-i18n="Pages">Features</span>
+                </a>
+                <div className="dropdown-menu p-4 p-xl-8">
+                  <div className="row gy-4">
+                    <div className="col-4 col-lg">
+                      {/* <div className="h6 d-flex align-items-center mb-3 mb-lg-5">
+                        <div className="avatar flex-shrink-0 me-3">
+                          <span className="avatar-initial rounded bg-label-primary">
+                            <i className="icon-base ti tabler-layout-grid icon-lg"></i>
+                          </span>
+                        </div>
+                        <span className="ps-1">Other</span>
+                      </div> */}
+                      <ul className="nav flex-column">
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/pricing">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Smart Property & Lead Management</strong>
+                                <p>Keep every listing and lead organized for faster deal closures.
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/payment">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Easy Visit Scheduling
+                                </strong>
+                                <p>Schedule and track property visits effortlessly in one place.
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-4 col-lg">
+                      {/* <div className="h6 d-flex align-items-center mb-3 mb-lg-5">
+                        <div className="avatar flex-shrink-0 me-3">
+                          <span className="avatar-initial rounded bg-label-primary">
+                            <i className="icon-base ti tabler-layout-grid icon-lg"></i>
+                          </span>
+                        </div>
+                        <span className="ps-1">Other</span>
+                      </div> */}
+                      <ul className="nav flex-column">
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/pricing">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Seller Submission Portal</strong>
+                                <p>Let sellers upload property details and media with ease.
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/payment">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Advisor Collaboration Network
+                                </strong>
+                                <p>Connect and collaborate with advisors to expand your reach.</p>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-4 col-lg">
+                      {/* <div className="h6 d-flex align-items-center mb-3 mb-lg-5">
+                        <div className="avatar flex-shrink-0 me-3">
+                          <span className="avatar-initial rounded bg-label-primary">
+                            <i className="icon-base ti tabler-layout-grid icon-lg"></i>
+                          </span>
+                        </div>
+                        <span className="ps-1">Other</span>
+                      </div> */}
+                      <ul className="nav flex-column">
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/pricing">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Voice Notes & Document Storage
+                                </strong>
+                                <p>Save voice notes and store documents securely for quick access.
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/payment">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Analytics & Real-Time Alerts
+                                </strong>
+                                <p>Get insights and instant alerts to act faster and convert more.
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                        
+                      
+                      </ul>
+                    </div>
+                    {/* <div className="col-lg-4 d-none d-lg-block">
+                      <div className="bg-body nav-img-col p-2">
+                        <img
+                          src="/front-pages/images/front-pages/misc/nav-item-col-img.png"
+                          alt="nav item col image"
+                          className="w-100"
+                        />
+                      </div>
+                    </div> */}
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item mega-dropdown">
+                <a
+                  href="javascript:void(0);"
+                  className="nav-link dropdown-toggle navbar-ex-14-mega-dropdown mega-dropdown fw-medium"
+                  aria-expanded="false"
+                  data-bs-toggle="mega-dropdown"
+                  data-trigger="hover"
+                >
+                  <span data-i18n="Pages">Company</span>
+                </a>
+                <div className="dropdown-menu p-4 p-xl-8">
+                  <div className="row gy-4">
+                    <div className="col-4 col-lg">
+                      {/* <div className="h6 d-flex align-items-center mb-3 mb-lg-5">
+                        <div className="avatar flex-shrink-0 me-3">
+                          <span className="avatar-initial rounded bg-label-primary">
+                            <i className="icon-base ti tabler-layout-grid icon-lg"></i>
+                          </span>
+                        </div>
+                        <span className="ps-1">Other</span>
+                      </div> */}
+                      <ul className="nav flex-column">
+                        <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/pricing">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>About Us</strong>
+                                <p>Creating a smarter, more impactful customer relationship platform
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                    <div className="col-4 col-lg">
+                     
+                      <ul className="nav flex-column">
+                      <li className="nav-item">
+                          <a className="nav-link mega-dropdown-link" href="/payment">
+                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                            <div class="men-rig">
+                                <strong>Careers
+                                </strong>
+                                <p>Lets work together
+                                </p>
+                            </div>
+                          </a>
+                        </li>
+                       
+                      </ul>
+                    </div>
+                    <div className="col-4 col-lg">
+                      <ul className="nav flex-column">
+                          <li className="nav-item">
+                              <a className="nav-link mega-dropdown-link" href="/payment">
+                                <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
+                                <div class="men-rig">
+                                    <strong>Our Vision
+                                    </strong>
+                                    <p>Empowering real estate with smart CRM solutions.
+                                    </p>
+                                </div>
+                              </a>
+                            </li>
+                        </ul>    
+                    </div>
+                    
+                    {/* <div className="col-lg-4 d-none d-lg-block">
+                      <div className="bg-body nav-img-col p-2">
+                        <img
+                          src="/front-pages/images/front-pages/misc/nav-item-col-img.png"
+                          alt="nav item col image"
+                          className="w-100"
+                        />
+                      </div>
+                    </div> */}
+                  </div>
+                </div>
               </li>
               <li className="nav-item">
                 <a className="nav-link fw-medium" href="#landingTeam">Team</a>
@@ -68,66 +273,7 @@ export default function Header() {
               <li className="nav-item">
                 <a className="nav-link fw-medium" href="#landingContact">Contact us</a>
               </li>
-              {/* <li className="nav-item mega-dropdown">
-                <a
-                  href="javascript:void(0);"
-                  className="nav-link dropdown-toggle navbar-ex-14-mega-dropdown mega-dropdown fw-medium"
-                  aria-expanded="false"
-                  data-bs-toggle="mega-dropdown"
-                  data-trigger="hover"
-                >
-                  <span data-i18n="Pages">Pages</span>
-                </a>
-                <div className="dropdown-menu p-4 p-xl-8">
-                  <div className="row gy-4">
-                    <div className="col-12 col-lg">
-                      <div className="h6 d-flex align-items-center mb-3 mb-lg-5">
-                        <div className="avatar flex-shrink-0 me-3">
-                          <span className="avatar-initial rounded bg-label-primary">
-                            <i className="icon-base ti tabler-layout-grid icon-lg"></i>
-                          </span>
-                        </div>
-                        <span className="ps-1">Other</span>
-                      </div>
-                      <ul className="nav flex-column">
-                        <li className="nav-item">
-                          <a className="nav-link mega-dropdown-link" href="/pricing">
-                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
-                            <span data-i18n="Pricing">Pricing</span>
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link mega-dropdown-link" href="/payment">
-                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
-                            <span data-i18n="Payment">Payment</span>
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link mega-dropdown-link" href="/checkout">
-                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
-                            <span data-i18n="Checkout">Checkout</span>
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link mega-dropdown-link" href="/help-center">
-                            <i className="icon-base ti tabler-circle me-1 icon-12px"></i>
-                            <span data-i18n="Help Center">Help Center</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col-lg-4 d-none d-lg-block">
-                      <div className="bg-body nav-img-col p-2">
-                        <img
-                          src="/front-pages/images/front-pages/misc/nav-item-col-img.png"
-                          alt="nav item col image"
-                          className="w-100"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li> */}
+              
             </ul>
           </div>
           <div className="landing-menu-overlay d-lg-none"></div>

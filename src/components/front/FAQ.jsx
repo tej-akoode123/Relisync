@@ -33,12 +33,9 @@ export default function FAQ() {
   ]
 
   return (
-    <section id="landingFAQ" className="section-py bg-body landing-faq">
+    <section id="landingFAQ" className="section-py bg-purple-green landing-faq">
       <div className="container">
-        <div className="text-center mb-4">
-          <span className="badge bg-label-primary">FAQ</span>
-        </div>
-        <h4 className="text-center mb-1">
+        <h2 className="text-center fw-extrabold mb-1">
           Frequently asked
           <span className="position-relative fw-extrabold z-1">
             {' '}questions
@@ -48,12 +45,12 @@ export default function FAQ() {
               className="section-title-img position-absolute object-fit-contain bottom-0 z-n1"
             />
           </span>
-        </h4>
+        </h2>
         <p className="text-center mb-12 pb-md-4">
           Browse through these FAQs to find answers to commonly asked questions.
         </p>
-        <div className="row gy-12 align-items-center">
-          <div className="col-lg-5">
+        <div className="row gy-12 align-items-center justify-content-center">
+          {/* <div className="col-lg-5">
             <div className="text-center">
               <img
                 src="/front-pages/images/front-pages/landing-page/faq.svg"
@@ -61,8 +58,8 @@ export default function FAQ() {
                 className="faq-image"
               />
             </div>
-          </div>
-          <div className="col-lg-7">
+          </div> */}
+          <div className="col-lg-10">
             <div className="accordion" id="accordionExample">
               {faqs.map((faq, index) => (
                 <div key={index} className={`card accordion-item ${faq.expanded ? 'active' : ''}`}>

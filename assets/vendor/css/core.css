@@ -34,7 +34,7 @@
   --bs-gray-800: #595564;
   --bs-gray-900: #444050;
   --bs-primary: #7367f0;
-  --bs-secondary: #006d5b;;
+  --bs-secondary: #6967af;;
   --bs-success: #28c76f;
   --bs-info: #00bad1;
   --bs-warning: #ff9f43;
@@ -8061,7 +8061,7 @@ textarea.form-control-lg {
   --bs-gray-800: #bdbcd3;
   --bs-gray-900: #cfcde4;
   --bs-primary: #7367f0;
-  --bs-secondary: #006d5b;;
+  --bs-secondary: #6967af;;
   --bs-success: #28c76f;
   --bs-info: #00bad1;
   --bs-warning: #ff9f43;
@@ -8096,7 +8096,7 @@ textarea.form-control-lg {
 ? styles specifically for apex-chart dark variant */
 .apexcharts-theme-dark {
   --bs-primary: #7367f0;
-  --bs-secondary: #006d5b;;
+  --bs-secondary: #6967af;;
   --bs-success: #28c76f;
   --bs-info: #00bad1;
   --bs-warning: #ff9f43;

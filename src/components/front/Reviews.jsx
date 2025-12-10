@@ -1,14 +1,11 @@
 export default function Reviews() {
   return (
-    <section id="landingReviews" className="section-py bg-body landing-reviews pb-0">
+    <section id="landingReviews" className="section-py bg-transparent landing-reviews">
       {/* What people say slider: Start */}
       <div className="container">
-        <div className="row align-items-center gx-0 gy-4 g-lg-5 mb-5 pb-md-5">
+        <div className="row align-items-center gx-0 gy-4 g-lg-5 mb-0 pb-md-0">
           <div className="col-md-6 col-lg-5 col-xl-3">
-            <div className="mb-4">
-              <span className="badge bg-label-primary">Real Customers Reviews</span>
-            </div>
-            <h4 className="mb-1">
+          <h2 className="text-center fw-extrabold mb-1">
               <span className="position-relative fw-extrabold z-1">
                 What people say
                 <img
@@ -17,7 +14,7 @@ export default function Reviews() {
                   className="section-title-img position-absolute object-fit-contain bottom-0 z-n1"
                 />
               </span>
-            </h4>
+            </h2>
             <p className="mb-5 mb-md-12">
               See what our customers have to<br className="d-none d-xl-block" />
               say about their experience.
@@ -77,7 +74,7 @@ export default function Reviews() {
         </div>
       </div>
       {/* What people say slider: End */}
-      <hr className="m-0 mt-6 mt-md-12" />
+      {/* <hr className="m-0 mt-6 mt-md-12" /> */}
       {/* Logo slider: Start */}
       {/* <div className="container">
         <div className="swiper-logo-carousel pt-8">

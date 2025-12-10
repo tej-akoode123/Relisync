@@ -9,10 +9,7 @@ export default function Team() {
   return (
     <section id="landingTeam" className="section-py landing-team">
       <div className="container">
-        <div className="text-center mb-4">
-          <span className="badge bg-label-primary">Our Great Team</span>
-        </div>
-        <h4 className="text-center mb-1">
+      <h2 className="text-center fw-extrabold mb-1">
           <span className="position-relative fw-extrabold z-1">
           Meet 
             <img
@@ -22,8 +19,8 @@ export default function Team() {
             />
           </span>
           {' '}Our Team
-        </h4>
-        <p className="text-center mb-md-11 pb-0 pb-xl-12">Experts building the future of real estate technology.</p>
+        </h2>
+        <p className="text-center pb-0 pb-xl-12">Experts building the future of real estate technology.</p>
         <div className="row gy-12 mt-2">
           {teamMembers.map((member, index) => (
             <div key={index} className="col-lg-3 col-sm-6">

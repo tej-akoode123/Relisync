@@ -22,22 +22,19 @@ export default function Pricing() {
   ]
 
   return (
-    <section id="landingPricing" className="section-py bg-body landing-pricing">
+    <section id="landingPricing" className="section-py landing-pricing landing-faq bg-light-green">
       <div className="container">
-        <div className="text-center mb-4">
-          <span className="badge bg-label-primary">Pricing Plans</span>
-        </div>
-        <h4 className="text-center mb-1">
-          <span className="position-relative fw-extrabold z-1">
+      <h2 className="text-center fw-extrabold mb-1">
+        <span className="position-relative fw-extrabold z-1">
           Flexible Pricing for 
-            <img
-              src="/front-pages/images/front-pages/icons/section-title-icon.png"
-              alt="laptop charging"
-              className="section-title-img position-absolute object-fit-contain bottom-0 z-n1"
-            />
-          </span>
-          {' '}Every Broker
-        </h4>
+          <img
+            src="/front-pages/images/front-pages/icons/section-title-icon.png"
+            alt="laptop charging"
+            className="section-title-img position-absolute object-fit-contain bottom-0 z-n1"
+          />
+        </span>
+        {' '}Every Broker
+      </h2>
         <p className="text-center pb-2 mb-7">
         Scale your property management as your team and listings grow.
         </p>
@@ -83,7 +80,7 @@ export default function Pricing() {
                     />
                     <h4 className="mb-0">{plan.name}</h4>
                     <div className="d-flex align-items-center justify-content-center">
-                        <span className="h2 text-primary fw-extrabold mb-0">{plan.price}</span>
+                        <span className="h2 text-dark fw-extrabold mb-0">{plan.price}</span>
                         <sub className="h6 text-body-secondary mb-n1 ms-1">
                           {plan.name === 'Yearly' ? '/year' : plan.name === 'Quarterly' ? '/quarter' : '/mo'}
                         </sub>
@@ -107,7 +104,7 @@ export default function Pricing() {
                       </li>
                     ))}
                   </ul>
-                  <a href="#" className="btn btn-label-primary w-100">
+                  <a href="#" className="btn btn-primary w-100">
                     Get Started
                   </a>
                 </div>
