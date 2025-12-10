@@ -39,7 +39,7 @@ export default function Contact() {
                   </div>
                   <div className="col-md-5 col-lg-12 col-xl-5">
                     <div className="d-flex align-items-center">
-                      <div className="badge bg-label-success rounded p-1_5 me-3">
+                      <div className="badge bg-label-primary rounded p-1_5 me-3">
                         <i className="icon-base ti tabler-phone-call icon-lg"></i>
                       </div>
                       <div>

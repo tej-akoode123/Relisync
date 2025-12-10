@@ -225,6 +225,7 @@ nav.layout-navbar .menu-text {
 }
 .landing-footer .footer-bottom {
   background-color: var(--bs-footer-bottom-bg);
+  position: relative;
 }
 .landing-footer .footer-link {
   transition: all 0.2s ease-in-out;

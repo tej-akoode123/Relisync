@@ -51,6 +51,7 @@
   --bs-light-rgb: 223, 223, 227;
   --bs-dark-rgb: 47, 51, 73;
   --bs-gray-rgb: 151, 149, 158;
+  --bs-blue-rgb: 63, 112, 183;
   --bs-primary-text-emphasis: #2e2960;
   --bs-secondary-text-emphasis: #33343a;
   --bs-success-text-emphasis: #10502c;
@@ -18073,6 +18074,10 @@ li:not(:first-child) .dropdown-item, .dropdown-menu .dropdown-item:not(:first-ch
 .text-success {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+}
+.text-blue {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-blue-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-info {

@@ -131,7 +131,7 @@ export default function WhatWeOffer() {
                   <ul className="list-unstyled mb-4">
                     {content.bullets.map((bullet, index) => (
                       <li key={index} className="mb-2 d-flex align-items-start">
-                        <span className="me-2 text-success"><i className="icon-base ti tabler-circle me-1 icon-12px"></i></span>
+                        <span className="me-2 text-blue"><i className="icon-base ti tabler-circle me-1 icon-12px"></i></span>
                         <span>{bullet}</span>
                       </li>
                     ))}
