@@ -203,6 +203,7 @@ nav.layout-navbar .menu-text {
 }
 .landing-footer .footer-bottom-text {
   color: var(--bs-footer-bottom-text);
+  position: relative;
 }
 .landing-footer .footer-bottom {
   background-color: var(--bs-footer-bottom-bg);
