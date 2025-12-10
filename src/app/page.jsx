@@ -1,5 +1,6 @@
 import Header from '@/components/front/Header'
 import Hero from '@/components/front/Hero'
+import WhatWeOffer from '@/components/front/WhatWeOffer'
 import Features from '@/components/front/Features'
 import Reviews from '@/components/front/Reviews'
 import Team from '@/components/front/Team'
@@ -16,10 +17,11 @@ export default function Home() {
       <DropdownInit />
       <Header />
       <Hero />
+      <WhatWeOffer />
       <Features />
       <Reviews />
-      <Team />
       <Pricing />
+      <Team />
       <FAQ />
       <CTA />
       <Contact />

@@ -48,15 +48,14 @@ $grays-dark: (
   "600": $gray-600-dark,
   "700": $gray-700-dark,
   "800": $gray-800-dark,
-  "900": $gray-900-dark
-) !default;
+  "900": $gray-900-dark) !default;
 
 // scss-docs-end gray-colors-map
 
 // scss-docs-start color-variables
 $blue-dark: #007bff !default;
 $indigo-dark: #6610f2 !default;
-$purple-dark: #7367f0 !default;
+$purple-dark: #47B96D !default;
 $pink-dark: #e83e8c !default;
 $red-dark: #ff4c51 !default;
 $orange-dark: #fd7e14 !default;
@@ -90,8 +89,7 @@ $theme-colors-dark: (
   "danger": $danger-dark,
   "light": $light-dark,
   "dark": $dark-dark,
-  "gray": $gray-dark
-) !default;
+  "gray": $gray-dark) !default;
 
 // scss-docs-end theme-colors-map
 

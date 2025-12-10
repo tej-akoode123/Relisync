@@ -125,6 +125,7 @@ nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item.mega-dropdown > .
 }
 nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item.mega-dropdown > .dropdown-menu .mega-dropdown-link:hover {
   color: var(--bs-primary);
+  background-color: rgba(71, 185, 109, 0.08);
 }
 nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item .nav-img-col,
 nav.layout-navbar .navbar.landing-navbar .navbar-nav .nav-item .nav-img-col img {
@@ -188,9 +189,12 @@ nav.layout-navbar .menu-text {
 .landing-footer {
   --bs-footer-text: var(--bs-white);
   --bs-footer-bottom-text: #d3d4dc;
-  --bs-footer-bottom-bg: #282c3e;
-  --bs-footer-top-bg: #241d31;
+  --bs-footer-bottom-bg: #2c2c2c;
+  --bs-footer-top-bg: #2e2e2e;
   /* use dark variables as front footer having dark background */
+}
+.landing-footer {
+  background-color: var(--bs-footer-top-bg);
 }
 .landing-footer .footer-link,
 .landing-footer .footer-text {
